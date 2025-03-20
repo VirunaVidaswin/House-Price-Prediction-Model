@@ -41,10 +41,10 @@ We evaluated both models using:
 - **R² Score**: Measures how well the model explains variability in house prices (higher is better).
 
 ## 📊 Results & Findings
-| Model                 | MAE  | MSE  | R² Score |
-|----------------------|------|------|----------|
-| **Linear Regression** | X.XX | X.XX | X.XX     |
-| **Random Forest**     | X.XX | X.XX | X.XX     |
+| Model                 |   MAE($) |      MSE($)   | R² Score |
+|-----------------------|----------|---------------|----------|
+| **Linear Regression** | 53457.82 | 7401323588.68 | 0.85062  |
+| **Random Forest**     | 7082.10  | 320744740.29  | 0.99352  |
 
 
 ## 💡 Future Improvements
