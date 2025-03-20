@@ -14,16 +14,16 @@ This project builds a **Machine Learning model** to predict house prices based o
 
 ## 🚀 Steps Implemented
 
-### 1 Data Preprocessing
+### 1. Data Preprocessing
 - **Dropped unnecessary columns**: `date`, `street`, and `country` (as they don’t contribute to price prediction).
 - **Handled missing values**: No missing records were found.
 - **Encoded categorical variables**: Used **One-Hot Encoding** to convert categorical data (`city`, `statezip`) into numerical form.
 
-### 2 Exploratory Data Analysis (EDA)
+### 2. Exploratory Data Analysis (EDA)
 - **Plotted House Price Distribution**: To check for skewness in house prices.
 - **Generated a Correlation Heatmap**: To analyze relationships between features and the target variable (`price`).
 
-### 3 Model Training
+### 3. Model Training
 We trained **two models** to predict house prices:
 ####  Linear Regression
 - A simple and interpretable model that assumes a linear relationship between features and the target variable.
@@ -34,7 +34,7 @@ We trained **two models** to predict house prices:
 - Captures **non-linear relationships** better than Linear Regression.
 - Uses **100 trees** to balance performance and training time.
 
-### 4 Model Evaluation
+### 4. Model Evaluation
 We evaluated both models using:
 - **Mean Absolute Error (MAE)**: Measures the average absolute difference between actual and predicted prices.
 - **Mean Squared Error (MSE)**: Penalizes large errors more than MAE.
